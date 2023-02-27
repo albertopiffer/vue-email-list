@@ -17,6 +17,7 @@ createApp({
 		},
 
         cicle() {
+            this.mailsArray = []
             for (let i = 0; i < 10; i++) {
                 this.resMail()
             }
